@@ -443,5 +443,3 @@ To make the abstractions above concrete, here is the full lifecycle of a single 
 ---
 
 **Next up:** the **Database Schema** document will formalize `mesh_messages`, `sync_queue`, `neighbors`, and the rest of the normalized PostgreSQL schema referenced throughout this document (Users, Devices, Messages, MessageRoutes, EmergencyRequests, MedicalRequests, Shelters, Resources, MissingPersons, SynchronizationLogs, AuditLogs, NotificationQueue), followed by the Android Application Architecture (Clean Architecture module breakdown + screen specs) and Backend Architecture (NestJS services + API contracts).
-
-Let me know which of those you want next, or if you'd like me to go deeper on anything here first (e.g., a worked-through capacity/latency model for R1 — the mesh scalability ceiling — before moving on).
